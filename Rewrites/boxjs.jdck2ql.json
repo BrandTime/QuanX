@@ -1,0 +1,22 @@
+{
+  "id": "jdck2ql-sub",
+  "name": "JDCK2QL Subscription",
+  "apps": [
+    {
+      "id": "jdck2ql",
+      "name": "JDCK → QL",
+      "keys": [
+        "JDCK2QL_QL_URL",
+        "JDCK2QL_QL_CLIENT_ID",
+        "JDCK2QL_QL_CLIENT_SECRET",
+        "JDCK2QL_REMARKS_PREFIX"
+      ],
+      "settings": [
+        { "id": "JDCK2QL_QL_URL", "name": "青龙地址(含协议)", "type": "text", "val": "", "desc": "示例：http://ip:5700 或 https://域名/ql" },
+        { "id": "JDCK2QL_QL_CLIENT_ID", "name": "ClientID", "type": "text", "val": "", "desc": "青龙 OpenAPI ClientID" },
+        { "id": "JDCK2QL_QL_CLIENT_SECRET", "name": "ClientSecret", "type": "text", "val": "", "desc": "青龙 OpenAPI ClientSecret（敏感）" },
+        { "id": "JDCK2QL_REMARKS_PREFIX", "name": "备注前缀", "type": "text", "val": "QX", "desc": "写入青龙 env remarks，例如 QX:pt_pin" }
+      ]
+    }
+  ]
+}
