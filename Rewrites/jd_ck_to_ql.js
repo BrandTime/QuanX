@@ -6,7 +6,7 @@
 #
 
 [rewrite_local]
-^https?:\/\/api\.m\.jd\.com\/api\?appid=plus_business&functionId=queryCircleInfo url script-request-header https://raw.githubusercontent.com/BrandTime/QuanX/main/qx/jd_ck_to_ql.js
+^https?:\/\/api\.m\.jd\.com\/api\?appid=plus_business&functionId=queryCircleInfo url script-request-header https://raw.githubusercontent.com/BrandTime/QuanX/master/Rewrites/jd_ck_to_ql.js
 [mitm]
 hostname = api.m.jd.com
 */
