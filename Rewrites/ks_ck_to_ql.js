@@ -5,7 +5,7 @@
 #
 
 [rewrite_local]
-^https?:\/\/api\.kuaishouzt\.com\/rest\/zt\/appsupport\/yoda\/biz\/info url script-request-header https://api.timbrd.com/qx/ks_ck_to_ql.js
+^https?:\/\/api\.kuaishouzt\.com\/rest\/zt\/appsupport\/yoda\/biz\/info url script-request-header https://raw.githubusercontent.com/BrandTime/QuanX/master/Rewrites/ks_ck_to_ql.js
 [mitm]
 hostname = api.kuaishouzt.com
 */
